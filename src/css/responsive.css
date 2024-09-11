@@ -1,0 +1,156 @@
+@media (max-width: 1500px) {
+    .conteudo .informacoes h1 {
+        font-size: 30px;
+    }
+
+    .conteudo .informacoes {
+        margin-left: 70px;
+    }
+
+    .conteudo .informacoes p {
+        width: 400px;
+        font-size: 20px;
+    }
+
+    .conteudo .container {
+        width: 540px;
+        height: 578px;
+        margin-right: 70px;
+    }
+
+    .conteudo .container .formulario input {
+        width: 475px;
+        height: 40px;
+        font-size: 15px;
+        margin: 5px 0 0 30px;
+    }
+
+    .conteudo .container .formulario .input-mensagem {
+        height: 150px;
+        padding-bottom: 110px;
+    }
+
+    .conteudo .container .formulario p {
+        font-size: 20px;
+        margin-left: 20px;
+    }
+
+    .conteudo .container .formulario button {
+        width: 475px;
+        height: 70px;
+        font-size: 20px;
+        margin-top: 35px;
+    }
+}
+
+@media (max-width: 1175px) {
+    body {
+        background-size: cover;
+    }
+    
+    .conteudo {
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .conteudo .informacoes {
+        margin: 0;
+        margin-top: 60px;
+    }
+
+    .conteudo .informacoes h1 {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+
+    .conteudo .informacoes p {
+        width: 500px;
+        font-size: 20px;
+    }
+
+    .conteudo .container {
+        width: 440px;
+        height: 478px;
+        margin: 0;
+        margin-top: 30px;
+    }
+
+    .conteudo .container .formulario input {
+        width: 375px;
+        margin: 0;
+        margin: 0px 0 0 30px;
+    }
+
+    .conteudo .container .formulario span {
+        font-size: 10px;
+    }
+
+    .conteudo .container .formulario p {
+        font-size: 12px;
+    }
+
+    .conteudo .container .formulario button {
+        width: 375px;
+        height: 45px;
+        font-size: 15px;
+        margin: 0;
+        margin: 10px 0 10px 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .conteudo .informacoes h1 {
+        font-size: 23px;
+    }
+
+    .conteudo .informacoes {
+        margin-top: 65px;
+    }
+
+    .conteudo .informacoes p {
+        width: 350px;
+        font-size: 20px;
+    }
+
+    .conteudo .container {
+        width: 340px;
+        height: 378px;
+        margin-top: 30px;
+    }
+
+    .conteudo .container .formulario input {
+        width: 275px;
+        height: 30px;
+        font-size: 10px;
+        margin: 0;
+        margin: 0 0 0 30px;
+    }
+
+    .conteudo .container .formulario span {
+        font-size: 10px;
+        margin-left: 30px;
+    }
+
+    .conteudo .container .formulario .primeiro-input {
+        margin-top: 20px;
+    }
+
+    .conteudo .container .formulario .input-mensagem {
+        height: 90px;
+        padding-bottom: 60px;
+    }
+
+    .conteudo .container .formulario p {
+        font-size: 12px;
+        margin: 0;
+        margin-left: 20px;
+    }
+
+    .conteudo .container .formulario button {
+        width: 275px;
+        height: 45px;
+        font-size: 15px;
+        margin: 0;
+        margin: 20px 0 10px 30px;
+    }
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Desafio de HTML CSS e JS Intermediário">
+    <title>Formulário com Validação</title>
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/variables.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main class="conteudo">
+        <div class="informacoes">
+            <h1>FICOU COM DÚVIDA? <br> NOS MANDE UMA MENSAGEM!</h1>
+
+            <p>caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato
+                em menos de
+                24h.</p>
+        </div>
+
+        <section class="container">
+
+            <form class="formulario">
+
+                <div class="campo">
+                    <input class="cor-sem-texto input campo-preenchido primeiro-input" type="text"
+                        placeholder="Nome Completo *" required>
+
+                    <span class="esconder">campo obrigatório</span>
+                </div>
+
+                <div class="campo">
+                    <input class="campo-vazio input campo-preenchido" type="email" placeholder="Email *" required>
+
+                    <span class="esconder">campo obrigatório</span>
+                </div>
+
+                <div class="campo">
+                    <input class="campo-vazio input campo-preenchido" type="tel" placeholder="Telefone *" required>
+
+                    <span class="esconder">campo obrigatório</span>
+                </div>
+
+                <div class="campo">
+                    <input class="campo-vazio input campo-preenchido input-mensagem" type="text"
+                        placeholder="Mensagem *" required>
+
+                    <span class="esconder">campo obrigatório</span>
+                </div>
+
+                <p>*campos obrigatórios</p>
+
+                <button type="submit" class="botao">Enviar</button>
+
+            </form>
+        </section>
+    </main>
+
+    <script type="text/javascript" src="./src/js/formulario.js"></script>
+</body>
+
+</html>
